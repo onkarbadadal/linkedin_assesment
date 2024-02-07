@@ -1,0 +1,22 @@
+First Script
+It  utilizes browser automation with Selenium to fetch data from LinkedIn using their API. This script takes the user's first name and last name as input, searches for users on LinkedIn, retrieves data for the first 10 search results, and saves them in a CSV file.
+This script performs the following steps:
+
+Opens a Chrome browser using Selenium.
+Navigates to LinkedIn's search page.
+Inputs the provided first and last name into the search field.
+Retrieves data such as name, headline, location, and profile URL for the first 10 search results.
+Saves the data into a CSV file named linkedin_data.csv.
+
+
+Second Script
+
+It  utilizes BeautifulSoup to scrape data from LinkedIn's public profiles.
+This script performs the following steps:
+
+Constructs the LinkedIn search URL based on the provided first and last name.
+Sends a request to LinkedIn's website.
+Scrapes the HTML content of the search results page using BeautifulSoup.
+Extracts relevant data such as name, headline, location, and profile URL from the search results.
+Writes the data into a CSV file named linkedin_data.csv.
+
